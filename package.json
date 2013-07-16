@@ -3,23 +3,22 @@
 , "version": "0.8.2"
 , "main": "index.js"
 , "bugs":"http://jira.webinos.org/browse/WP"
-, "dependencies":{
-    "schema": "0.x.x",
-    "webinos-jsonrpc2":"*"
+, "dependencies":
+  { "schema": "0.x.x"
+  , "webinos-jsonrpc2":"*"
 }
 , "devDependencies": {
     "jasmine-node" : "1.x.x"
 }
-, "engines": { 
-    "node": ">= 0.6.0"
-,   "npm": ">= 1.1.17"
-}
+, "engines":
+  { "node": ">= 0.6.0"
+  , "npm": ">= 1.1.17"
+  }
 , "scripts": {
     "test": "jasmine-node ./test/jasmine"
 }
-, "repositories": 
-  [ { "type" : "git",
-      "url"  : "https://github.com/webinos/webinos-utilities.git"
-    }
-  ]
+, "repository":
+  { "type" : "git"
+  , "url"  : "https://github.com/webinos/webinos-utilities.git"
+  }
 }
